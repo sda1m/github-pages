@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra Panel</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            padding: 20px 0;
+            background-color: #1c1c1c;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #00dca6;
+        }
+        .links {
+            margin: 20px 0;
+        }
+        .links a {
+            font-style: italic
+            display: block;
+            text-decoration: none;
+            color: white;
+            background-color: #00dca6;
+            margin: 10px auto;
+            padding: 10px 20px;
+            width: 200px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #00b58b;
+        }
+        .sections {
+            margin: 20px 0;
+        }
+        .sections button {
+            display: block;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            margin: 10px auto;
+            padding: 10px 20px;
+            width: 200px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sections button:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ALRabiaa ASTRA</h1>
+    </div>
+
+    <div class="links">
+        <a href="http://172.16.0.2:8000">  Main  </a>
+        <a href="http://172.16.0.58:8000">  Earthlink  </a>
+   
+        <a href="http://172.16.0.38:8000">  Horizon  </a>
+    </div>
+
+    <div class="sections">
+        <a href="http://172.16.1.34:8002"> <button>Basra</button> </a>
+       <a href="http://172.16.2.34:8000"> <button>Emara</button> </a>
+        <a href="http://172.16.3.34:8000"> <button>Hilla</button> </a>
+        <a href="http://172.16.4.34:8000"> <button>Kut</button> </a>
+        <a href="http://172.16.5.34:8000"> <button>Samawah</button> </a>
+        <a href="http://172.16.8.34:8000"> <button>Azizia</button> </a>
+        <a href="http://172.16.9.34:8000"> <button>Balad</button> </a>
+        <a href="http://172.16.10.34:8000"> <button>Diyala</button> </a>
+        <a href="http://172.16.12.34:8000"> <button>Rumadi</button> </a>
+        <a href="http://172.16.13.34:8000"> <button>Najaf</button> </a>
+        <a href="http://172.16.14.34:8000"> <button>Baghdad</button> </a>
+        <a href="http://172.16.15.34:8000"> <button>Haditha</button> </a>
+        <a href="http://172.16.16.34:8000"> <button>Faloja</button> </a>
+        <a href="http://172.16.17.34:8000"> <button>Heet</button> </a>
+        <a href="http://172.16.19.34:8000"> <button>Nasiriah</button> </a>
+        <a href="http://172.16.27.34:8000"> <button>Mosul</button> </a>
+        <a href="http://172.16.28.34:8000"> <button>Tiktiet</button> </a>
+        
+    </div>
+</body>
+</html>
